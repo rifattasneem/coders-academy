@@ -50,7 +50,7 @@
                         <a class="nav-link mx-lg-1 mx-xl-3" href="#">About</a>
                      </li>
                   </ul>
-                  <button class="btn btn-theme-outline px-4 py-2 d-block d-md-none d-lg-block" type="button">Register</button>
+                  <button class="btn btn-theme-outline px-4 py-2 d-block d-md-none d-lg-block fw-semibold" type="button">Register</button>
               </div>
             </div>
           </nav>
@@ -70,7 +70,7 @@
                            <div class="col-10 col-md-8">
                               <h1 class="display-3 fw-bold lh-sm mb-3">Get Started With Digital Learning</h1>
                               <p class="mb-4">An efficient way of learning accompanied by new technologies.</p>
-                              <button class="btn btn-theme px-4 py-2">Get Started</button>
+                              <button class="btn btn-theme px-4 py-2 fw-semibold">Get Started</button>
                            </div>
                         </div>
                      </div>
@@ -79,7 +79,7 @@
                            <div class="col-10 col-md-8">
                               <h1 class="display-3 fw-bold lh-sm mb-3">Get Started With Digital Learning</h1>
                               <p class="mb-4">An efficient way of learning accompanied by new technologies.</p>
-                              <button class="btn btn-theme px-4 py-2">Get Started</button>
+                              <button class="btn btn-theme px-4 py-2 fw-semibold">Get Started</button>
                            </div>
                         </div>
                      </div>
@@ -88,7 +88,7 @@
                            <div class="col-10 col-md-8"> 
                               <h1 class="display-3 fw-bold lh-sm mb-3">Get Started With Digital Learning</h1>
                               <p class="mb-4">An efficient way of learning accompanied by new technologies.</p>
-                              <button class="btn btn-theme px-4 py-2">Get Started</button>
+                              <button class="btn btn-theme px-4 py-2 fw-semibold">Get Started</button>
                            </div>
                         </div>
                      </div>
@@ -187,12 +187,86 @@
          <!-- single courses -->
          <div class="row justify-content-center">
             <div class="col-lg-5 text-center">
-               <button class="btn btn-theme px-4 py-2" type="button">See More Courses</button>
+               <button class="btn btn-theme px-4 py-2 fw-semibold" type="button">See More Courses</button>
             </div>
          </div>
       </div>
    </section>
    <!-- popular courses ends -->
+
+   <!-- register starts -->
+   <section class="register my-5">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="bg-theme d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center p-5 rounded">
+                  <div class="register-text text-white text-center text-lg-start py-lg-5 ps-lg-5">
+                     <h1 class="fw-bold">Ready to join?</h1>
+                     <p>Sign up and access more than 100 courses to improve your skills. </p>
+                  </div>
+                  <div class="register-btn py-lg-4 pe-lg-5 text-center text-lg-end">
+                     <button class="btn btn-theme-outline bg-white px-4 py-2 fw-semibold" data-bs-toggle="modal" data-bs-target="#register">Register Now</button>
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- register ends -->
+
+   <!-- Modal for register now -->
+   <div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title" id="registerLabel">Register Now</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+            <form class="row g-3 needs-validation">
+               <div class="col-md-4 position-relative">
+                 <label for="validationTooltip01" class="form-label">First name</label>
+                 <input type="text" class="form-control" id="validationTooltip01" required>
+               </div>
+               <div class="col-md-4 position-relative">
+                 <label for="validationTooltip02" class="form-label">Last name</label>
+                 <input type="text" class="form-control" id="validationTooltip02" required>
+               </div>
+               <div class="col-md-4 position-relative">
+                 <label for="validationTooltipUsername" class="form-label">Username</label>
+                 <div class="input-group has-validation">
+                   <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                   <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                 </div>
+               </div>
+               <div class="col-md-6 position-relative">
+                 <label for="validationTooltip03" class="form-label">City</label>
+                 <input type="text" class="form-control" id="validationTooltip03" required>
+               </div>
+               <div class="col-md-3 position-relative">
+                 <label for="validationTooltip04" class="form-label">State</label>
+                 <select class="form-select" id="validationTooltip04" required>
+                   <option selected disabled value="">Choose...</option>
+                   <option>...</option>
+                 </select>
+               </div>
+               <div class="col-md-3 position-relative">
+                 <label for="validationTooltip05" class="form-label">Zip</label>
+                 <input type="text" class="form-control" id="validationTooltip05" required>
+               </div>
+               <div class="col-12">
+                 <button class="btn btn-theme" type="submit">Submit form</button>
+               </div>
+             </form>
+         </div>
+         <div class="modal-footer">
+            <button type="button" class="btn btn-theme-outline" data-bs-dismiss="modal">Close</button>
+         </div>
+      </div>
+      </div>
+   </div>
+   <!-- Modal for register now -->
 
    <!-- faq starts -->
    <section class="faq py-3 py-lg-5">

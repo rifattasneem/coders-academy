@@ -23,6 +23,9 @@ body{
 .text-theme{
    color: var(--color-theme);
 }
+.bg-theme{
+   background-color: var(--color-theme);
+}
 
 /* banner carousel starts */
 .car-item-1,.car-item-2,.car-item-3{
