@@ -43,3 +43,15 @@ body{
    background-image: url(../images/code.jpg);
 }
 /* banner carousel ends */
+
+/* faq starts */
+.acc-btn-custom:not(.collapsed){
+   color: #212529;
+   background-color: rgba(40, 155, 222, 0.1);
+}
+.acc-btn-custom:focus{
+   border-color: transparent;
+   box-shadow: none;
+   color: inherit;
+}
+/* faq ends */
