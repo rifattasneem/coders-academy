@@ -47,6 +47,12 @@ body{
 }
 /* banner carousel ends */
 
+/* explore elerning starts */
+.bg-explore{
+   background-color: #F4FAFD;
+}
+/* explore elerning ends */
+
 /* faq starts */
 .acc-btn-custom:not(.collapsed){
    color: #212529;
